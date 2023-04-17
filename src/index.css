@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #aa16b5, #040a7f);
+  height: 100vh;
+}
+html {
+  font-size: 16px;
+  height: 100vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card {
+  border: 2px solid rgb(56, 223, 0);
+  color: white;
+  background: linear-gradient(to left, #040455, #050316);
+  max-width: 55%;
+  padding: 2px 2px;
+  height: 98vh;
+  overflow-y: auto;
+  border-radius: 19px;
+}
+/* .card::-webkit-scrollbar {
+  display: none;
+} */
+.dp {
+  max-width: 90%;
+  height: 15rem;
+  display:inline-flex;
+  aspect-ratio: 3/3;
+  border: 2px solid cyan;
+  margin-top: 0px;
+
+}
+.socials {
+
+  display:inline-block;
+  margin-top: 2px;
+}
+h1 {
+  position: relative;
+  top: 10px;
+  font-size: 2rem;
+  margin-top: -10px;
+  font-family:'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #602bdb, #dbfc66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span {
+  color: rgb(251, 164, 133);
+  position: relative;
+  bottom: 10px;
+}
+.address {
+  color: rgb(118, 255, 241);
+}
+a {
+  text-decoration: none;
+
+  font-size: 0.8rem;
+  font-family: Arial, sans-serif !important;
+  font-style: normal;  
+}
+.social-links{
+  background-color: rgb(3, 11, 120);
+  list-style: none;
+  padding: 1rem 1rem;
+  margin:0.2rem;
+  font-family: Arial, sans-serif !important;
+  color: aliceblue;
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  width: 7rem;
+}
+i {
+  margin-right: 5px;
+}
+#email {
+  background-color: beige;
+  color: black;
+}
+
+.card-info {
+  max-height: 40rem;
+  width: 25rem;
+  display: inline-block;
+}
+
+.card-about {
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: -20px;
+  font-family:'Courier New', Courier, monospace;
+}
+.card-about a {
+  color: rgba(152, 253, 246, 0.946);
+}
+.card-about p {
+  margin-top: -15px;
+}
+
+.card-interests {
+  display: inline-block;
+  margin-top: -30px;
+  font-family:'Courier New', Courier, monospace;
+}
+.card-interests p{
+  margin-top: -20px;
+}
+.footer  a, li {
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #260058; 
+}
+.footer i {
+  position: relative;
+  font-size: 1.5rem;
+  top: 5px;
+  left: 2px;
+}
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(1, 0, 2);
+  margin-top: -15px;
+  flex-shrink: 0;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+.footer ul {
+  gap: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+h3 {
+  color: rgb(0, 174, 255);
+}
